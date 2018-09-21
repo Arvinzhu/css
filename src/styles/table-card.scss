@@ -1,0 +1,10 @@
+.base-table-card{
+  .el-card__body{
+    .el-table{
+      &+.el-pagination{
+        text-align: right;
+        margin-top: 16px;
+      }
+    }
+  }
+}
